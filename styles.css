@@ -34,7 +34,8 @@ body {
 }
 
 .introP {
-	width: 60%;
+	width: 90%;
+	text-align: center;
 }
 
 .explore-btn {
@@ -56,23 +57,31 @@ body {
 	display: flex;
 	justify-self: center;
 	justify-content: center;
-	width: 90%;
+	width: 100%;
 }
 
 .whipImg {
 	position: relative;
 	width: 100%;
+	height: auto;
 }
 
-.whipText {
+/*.whipText {
 	position: absolute;
 	text-align: center;
 	width: 80%;
 	border: #db9421 5px solid;
 	margin: 1rem;
-}
+}*/
 
-.contact {
+.whipText {
+	position: absolute;
+	text-align: center;
+	width: 100%; /* Take full width on small screens */
+	border: #db9421 5px solid;
+	margin: 1rem 0;
+	font-size: 1.8rem; /* Scale down the font size for mobile */
+	padding: 10px;
 }
 
 .contactTitle {
@@ -80,8 +89,34 @@ body {
 	justify-content: center;
 }
 
+.contactInfo {
+	font-size: small;
+}
+
 .email {
 	display: flex;
 	justify-content: center;
-	font-size: 20px;
+	font-size: 15px;
+}
+
+@media (min-width: 768px) {
+	.introP {
+		width: 60%; /* Back to 60% on desktops */
+	}
+
+	.whipText {
+		/* Return to absolute on large screens if desired */
+		width: 80%;
+		text-align: center;
+		border: #db9421 5px solid;
+		margin: 1rem;
+		font-size: 5rem;
+	}
+
+	.email {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 992px) {
 }
