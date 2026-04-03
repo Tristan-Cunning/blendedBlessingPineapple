@@ -1,0 +1,73 @@
+body {
+	background-color: #f3e8d8;
+}
+
+.spacer {
+	height: 50px;
+}
+
+.navigation {
+	background-color: #f3e8d8;
+}
+
+.navBtn {
+	border: 1px solid black;
+	border-radius: 0;
+	padding: 5px 40px;
+	color: black;
+	font-size: 16px;
+	width: 10rem;
+	height: 2.5rem;
+	vertical-align: middle;
+}
+
+.intro {
+	margin-top: 4rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.introTitle {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.introP {
+	width: 60%;
+}
+
+.explore-btn {
+	margin: 3rem 0;
+	border-radius: 0;
+	color: #f3e8d8;
+	font-size: 16px;
+	width: 10rem;
+	height: 2.5rem;
+}
+
+.bannerTruck {
+	display: flex;
+	justify-self: center;
+	width: 90%;
+}
+
+.bannerWhip {
+	display: flex;
+	justify-self: center;
+	justify-content: center;
+	width: 90%;
+}
+
+.whipImg {
+	position: relative;
+	width: 100%;
+}
+
+.whipText {
+	position: absolute;
+	text-align: center;
+	width: 80%;
+	border: #db9421 5px solid;
+	margin: 1rem;
+}
