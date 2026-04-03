@@ -7,7 +7,7 @@ body {
 }
 
 .navigation {
-	background-color: #f3e8d8;
+	background-color: lightyellow;
 }
 
 .navBtn {
@@ -77,11 +77,12 @@ body {
 .whipText {
 	position: absolute;
 	text-align: center;
-	width: 100%; /* Take full width on small screens */
+	width: 90%; /* Take full width on small screens */
 	border: #db9421 5px solid;
-	margin: 1rem 0;
+	margin: 1rem;
 	font-size: 1.8rem; /* Scale down the font size for mobile */
 	padding: 10px;
+	text-shadow: 2px 2px 4px rgba(244, 242, 242, 0.5); /* Add a subtle shadow for better readability */
 }
 
 .contactTitle {
@@ -93,10 +94,26 @@ body {
 	font-size: small;
 }
 
-.email {
+.social {
 	display: flex;
 	justify-content: center;
+	text-align: center;
 	font-size: 15px;
+}
+
+.socialIcons {
+	display: flex;
+	justify-content: center;
+	gap: 20px; /* Add some space between icons */
+}
+
+.socialIcon {
+	width: 30px;
+}
+
+.ratio {
+	border: #db9421 5px solid; /* Matches your whipText border color */
+	margin-bottom: 3rem;
 }
 
 @media (min-width: 768px) {
@@ -110,7 +127,7 @@ body {
 		text-align: center;
 		border: #db9421 5px solid;
 		margin: 1rem;
-		font-size: 5rem;
+		font-size: 4rem;
 	}
 
 	.email {
