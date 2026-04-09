@@ -80,7 +80,7 @@ body {
 	width: 90%; /* Take full width on small screens */
 	border: #db9421 5px solid;
 	margin: 1rem;
-	font-size: 1.8rem; /* Scale down the font size for mobile */
+	font-size: 1.35rem; /* Scale down the font size for mobile */
 	padding: 10px;
 	text-shadow: 2px 2px 4px rgba(244, 242, 242, 0.5); /* Add a subtle shadow for better readability */
 }
@@ -117,6 +117,7 @@ body {
 }
 
 @media (min-width: 768px) {
+	/*Small*/
 	.introP {
 		width: 60%; /* Back to 60% on desktops */
 	}
@@ -136,4 +137,9 @@ body {
 }
 
 @media (min-width: 992px) {
+	/*Medium*/
+}
+
+@media (min-width: 1200px) {
+	/*Large*/
 }
